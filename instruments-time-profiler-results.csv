@@ -1,0 +1,291 @@
+Running Time,Self (ms),,Symbol Name
+28791.0ms   99.9%,0, ,start
+28790.8ms   99.9%,0, , __rust_try
+28790.8ms   99.9%,0, ,  sys_common::unwind::try::try_fn::h15411707225561299101
+28788.9ms   99.9%,7545.359999999916, ,   profiling::main
+10452.3ms   36.3%,10452.31999999982, ,    profiling::sum_floats
+10273.6ms   35.6%,10273.55999999983, ,    profiling::multiply_ints
+394.2ms    1.3%,0.12, ,    profiling::heap::deallocate
+351.9ms    1.2%,20.63999999999974, ,     free_large
+289.0ms    1.0%,289.039999999998, ,      madvise
+34.6ms    0.1%,0.12, ,      deallocate_pages
+34.5ms    0.1%,0.16, ,       mach_vm_deallocate
+34.3ms    0.1%,34.32000000000001, ,        _kernelrpc_mach_vm_deallocate_trap
+4.1ms    0.0%,4.120000000000003, ,      large_entry_for_pointer_no_lock
+3.4ms    0.0%,3.400000000000002, ,      large_entry_free_no_lock
+0.1ms    0.0%,0.08, ,      _os_lock_spin_unlock
+32.9ms    0.1%,11.03999999999998, ,     free
+13.3ms    0.0%,13.31999999999995, ,      szone_size
+3.7ms    0.0%,3.720000000000002, ,      _os_lock_spin_lock
+3.4ms    0.0%,1.04, ,      szone_size_try_large
+2.4ms    0.0%,2.360000000000001, ,       large_entry_for_pointer_no_lock
+1.0ms    0.0%,1.04, ,      os_lock_lock
+0.1ms    0.0%,0.12, ,      os_lock_unlock
+0.1ms    0.0%,0.12, ,      _os_lock_spin_unlock
+0.1ms    0.0%,0.08, ,      DYLD-STUB$$os_lock_lock
+0.0ms    0.0%,0, ,      <Unknown Address>
+0.0ms    0.0%,0.04, ,       large_entry_for_pointer_no_lock
+4.1ms    0.0%,4.120000000000002, ,     _os_lock_spin_lock
+2.0ms    0.0%,2.000000000000001, ,     szone_free_definite_size
+0.0ms    0.0%,0.04, ,      tiny_free_list_remove_ptr
+0.6ms    0.0%,0.6, ,     madvise
+0.5ms    0.0%,0.4799999999999999, ,     _os_lock_spin_unlock
+0.4ms    0.0%,0.4400000000000001, ,     os_lock_lock
+0.4ms    0.0%,0, ,     <Unknown Address>
+0.2ms    0.0%,0.2, ,      large_entry_free_no_lock
+0.1ms    0.0%,0.12, ,      szone_size_try_large
+0.0ms    0.0%,0.04, ,      szone_size
+0.3ms    0.0%,0.32, ,     __rust_deallocate
+0.3ms    0.0%,0.32, ,     DYLD-STUB$$madvise
+0.3ms    0.0%,0.28, ,     os_lock_unlock
+0.1ms    0.0%,0.12, ,     DYLD-STUB$$os_lock_unlock
+0.1ms    0.0%,0.12, ,     DYLD-STUB$$os_lock_lock
+0.1ms    0.0%,0.08, ,     szone_size
+122.0ms    0.4%,0.04, ,    profiling::heap::allocate
+121.2ms    0.4%,3.920000000000003, ,     malloc
+117.0ms    0.4%,0.8000000000000003, ,      malloc_zone_malloc
+115.4ms    0.4%,3.720000000000002, ,       szone_malloc_should_clear
+106.6ms    0.3%,13.19999999999996, ,        large_malloc
+90.6ms    0.3%,90.59999999999926, ,         madvise
+2.8ms    0.0%,0.04, ,         allocate_pages
+2.8ms    0.0%,0.16, ,          mach_vm_map
+2.6ms    0.0%,2.600000000000001, ,           _kernelrpc_mach_vm_map_trap
+0.0ms    0.0%,0, ,         <Unknown Address>
+0.0ms    0.0%,0.04, ,          mach_vm_map
+4.3ms    0.0%,4.280000000000002, ,        _os_lock_spin_lock
+0.2ms    0.0%,0.2, ,        DYLD-STUB$$os_lock_unlock
+0.2ms    0.0%,0.16, ,        os_lock_lock
+0.1ms    0.0%,0.08, ,        _os_lock_spin_unlock
+0.1ms    0.0%,0.08, ,        DYLD-STUB$$os_lock_lock
+0.1ms    0.0%,0.08, ,        os_lock_unlock
+0.1ms    0.0%,0.04, ,        small_malloc_from_free_list
+0.0ms    0.0%,0.04, ,         small_free_list_add_ptr
+0.0ms    0.0%,0.04, ,        madvise
+0.4ms    0.0%,0.4, ,       szone_malloc
+0.3ms    0.0%,0.32, ,       _os_lock_spin_lock
+0.1ms    0.0%,0, ,       <Unknown Address>
+0.1ms    0.0%,0.12, ,        large_malloc
+0.0ms    0.0%,0.04, ,       _os_lock_spin_unlock
+0.2ms    0.0%,0, ,      <Unknown Address>
+0.2ms    0.0%,0.16, ,       szone_malloc
+0.0ms    0.0%,0.04, ,       szone_malloc_should_clear
+0.5ms    0.0%,0.48, ,     __rust_allocate
+0.3ms    0.0%,0, ,     <Unknown Address>
+0.3ms    0.0%,0.32, ,      malloc_zone_malloc
+0.8ms    0.0%,0.8000000000000002, ,    profiling::ptr::*mut T::offset
+0.3ms    0.0%,0.32, ,    profiling::ptr::write<f64>
+0.3ms    0.0%,0.28, ,    profiling::ptr::write<i64>
+0.0ms    0.0%,0.04, ,    profiling::cmp::impls::usize.PartialOrd::lt
+0.0ms    0.0%,0, ,    io::stdio::_print::hbfd2a385e1936ffcV5g
+0.0ms    0.0%,0, ,     io::stdio::stdout::he9dfc0cbcba2e0c18Xg
+0.0ms    0.0%,0, ,      pthread_mutex_unlock
+0.0ms    0.0%,0.04, ,       __mtx_droplock
+1.3ms    0.0%,0, ,   <Unknown Address>
+0.4ms    0.0%,0.4399999999999999, ,    malloc
+0.3ms    0.0%,0.32, ,    __rust_deallocate
+0.3ms    0.0%,0.32, ,    free
+0.1ms    0.0%,0.08, ,    free_large
+0.1ms    0.0%,0.08, ,    __rust_allocate
+0.0ms    0.0%,0.04, ,    szone_free_definite_size
+0.4ms    0.0%,0.4, ,   DYLD-STUB$$free
+0.1ms    0.0%,0.08, ,   DYLD-STUB$$malloc
+0.1ms    0.0%,0.08, ,   __rust_allocate
+0.0ms    0.0%,0.04, ,   _os_lock_spin_unlock
+0.0ms    0.0%,0.04, ,   __rust_deallocate
+0.0ms    0.0%,0.04, ,   szone_free_definite_size
+0.1ms    0.0%,0, , rt::lang_start::hdd3db496762fc012fSw
+0.0ms    0.0%,0, ,  0x10a8e2017
+0.0ms    0.0%,0, ,   dyld_stub_binder
+0.0ms    0.0%,0, ,    dyld::fastBindLazySymbol(ImageLoader**, unsigned long)
+0.0ms    0.0%,0, ,     ImageLoaderMachOCompressed::doBindFastLazySymbol(unsigned int, ImageLoader::LinkContext const&, void (*)(), void (*)())
+0.0ms    0.0%,0, ,      ImageLoaderMachOCompressed::resolve(ImageLoader::LinkContext const&, char const*, unsigned char, long, ImageLoader const**, ImageLoaderMachOCompressed::LastLookup*, bool)
+0.0ms    0.0%,0, ,       ImageLoaderMachOCompressed::resolveTwolevel(ImageLoader::LinkContext const&, ImageLoader const*, bool, char const*, bool, ImageLoader const**)
+0.0ms    0.0%,0, ,        ImageLoaderMachO::findExportedSymbol(char const*, bool, ImageLoader const**) const
+0.0ms    0.0%,0, ,         ImageLoaderMachO::findExportedSymbol(char const*, bool, ImageLoader const**) const
+0.0ms    0.0%,0, ,          ImageLoaderMachOCompressed::findExportedSymbol(char const*, ImageLoader const**) const
+0.0ms    0.0%,0.04, ,           ImageLoaderMachOCompressed::trieWalk(unsigned char const*, unsigned char const*, char const*)
+0.0ms    0.0%,0, ,  sys_common::cleanup::hb3552c55f0aa0a8da5s
+0.0ms    0.0%,0.04, ,   free
+0.0ms    0.0%,0, , 0x10a8e2017
+0.0ms    0.0%,0, ,  dyld_stub_binder
+0.0ms    0.0%,0, ,   dyld::fastBindLazySymbol(ImageLoader**, unsigned long)
+0.0ms    0.0%,0, ,    ImageLoaderMachOCompressed::doBindFastLazySymbol(unsigned int, ImageLoader::LinkContext const&, void (*)(), void (*)())
+0.0ms    0.0%,0, ,     ImageLoaderMachOCompressed::resolve(ImageLoader::LinkContext const&, char const*, unsigned char, long, ImageLoader const**, ImageLoaderMachOCompressed::LastLookup*, bool)
+0.0ms    0.0%,0, ,      ImageLoaderMachOCompressed::resolveTwolevel(ImageLoader::LinkContext const&, ImageLoader const*, bool, char const*, bool, ImageLoader const**)
+0.0ms    0.0%,0, ,       ImageLoaderMachO::findExportedSymbol(char const*, bool, ImageLoader const**) const
+0.0ms    0.0%,0, ,        ImageLoaderMachO::findExportedSymbol(char const*, bool, ImageLoader const**) const
+0.0ms    0.0%,0, ,         ImageLoaderMachOCompressed::findExportedSymbol(char const*, ImageLoader const**) const
+0.0ms    0.0%,0.04, ,          ImageLoaderMachOCompressed::trieWalk(unsigned char const*, unsigned char const*, char const*)
+1.6ms    0.0%,0.04, ,_dyld_start
+1.6ms    0.0%,0, , dyldbootstrap::start(macho_header const*, int, char const**, long, macho_header const*, unsigned long*)
+1.6ms    0.0%,0, ,  dyld::_main(macho_header const*, unsigned long, int, char const**, char const**, char const**, unsigned long*)
+1.0ms    0.0%,0, ,   dyld::link(ImageLoader*, bool, bool, ImageLoader::RPathChain const&)
+1.0ms    0.0%,0, ,    ImageLoader::link(ImageLoader::LinkContext const&, bool, bool, bool, ImageLoader::RPathChain const&)
+0.4ms    0.0%,0, ,     dyld::notifyBatchPartial(dyld_image_states, bool, char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*))
+0.4ms    0.0%,0, ,      coresymbolication_load_image(CSCppDyldSharedMemoryPage*, ImageLoader const*, unsigned long long)
+0.4ms    0.0%,0, ,       CSCppDyldSharedMemoryPage::send_notice(unsigned int, unsigned int&, unsigned int&)
+0.4ms    0.0%,0, ,        mach_msg
+0.4ms    0.0%,0.36, ,         mach_msg_trap
+0.0ms    0.0%,0.04, ,        mach_port_allocate
+0.0ms    0.0%,0, ,      _qsort
+0.0ms    0.0%,0.04, ,       ImageLoader::compare(ImageLoader const*) const
+0.4ms    0.0%,0, ,     ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.4ms    0.0%,0, ,      ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.2ms    0.0%,0, ,       dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*)
+0.2ms    0.0%,0, ,        dyld::load(char const*, dyld::LoadContext const&)
+0.2ms    0.0%,0, ,         dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0.2ms    0.0%,0, ,          dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0.2ms    0.0%,0, ,           dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0.2ms    0.0%,0, ,            dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0.2ms    0.0%,0, ,             dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0.2ms    0.0%,0.16, ,              stat64
+0.1ms    0.0%,0.08, ,              dyld::findInSharedCacheImage(char const*, bool, stat const*, macho_header const**, char const**, long*)
+0.1ms    0.0%,0, ,       ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.1ms    0.0%,0, ,        ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.1ms    0.0%,0, ,         ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.1ms    0.0%,0, ,          ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.1ms    0.0%,0, ,           ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.1ms    0.0%,0, ,            ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.1ms    0.0%,0, ,             ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.1ms    0.0%,0, ,              ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.1ms    0.0%,0, ,               ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.1ms    0.0%,0, ,                dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*)
+0.1ms    0.0%,0, ,                 dyld::load(char const*, dyld::LoadContext const&)
+0.1ms    0.0%,0, ,                  dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0.1ms    0.0%,0, ,                   dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0.1ms    0.0%,0, ,                    dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0.1ms    0.0%,0, ,                     dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0.1ms    0.0%,0, ,                      dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0.0ms    0.0%,0.04, ,                       stat64
+0.0ms    0.0%,0.04, ,                       ImageLoader::hash(char const*)
+0.0ms    0.0%,0, ,                ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.0ms    0.0%,0, ,                 ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.0ms    0.0%,0, ,                  ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.0ms    0.0%,0, ,                   ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.0ms    0.0%,0, ,                    ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.0ms    0.0%,0, ,                     ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.0ms    0.0%,0, ,                      ImageLoader::recursiveLoadLibraries(ImageLoader::LinkContext const&, bool, ImageLoader::RPathChain const&)
+0.0ms    0.0%,0, ,                       dyld::libraryLocator(char const*, bool, char const*, ImageLoader::RPathChain const*)
+0.0ms    0.0%,0, ,                        dyld::load(char const*, dyld::LoadContext const&)
+0.0ms    0.0%,0, ,                         dyld::loadPhase0(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0.0ms    0.0%,0, ,                          dyld::loadPhase1(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0.0ms    0.0%,0, ,                           dyld::loadPhase3(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0.0ms    0.0%,0, ,                            dyld::loadPhase4(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0.0ms    0.0%,0, ,                             dyld::loadPhase5(char const*, char const*, dyld::LoadContext const&, std::__1::vector<char const*, std::__1::allocator<char const*> >*)
+0.0ms    0.0%,0.04, ,                              strcmp
+0.0ms    0.0%,0, ,     dyld::registerDOFs(std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> > const&)
+0.0ms    0.0%,0, ,      strlcpy
+0.0ms    0.0%,0.04, ,       strlen
+0.0ms    0.0%,0.04, ,     mach_absolute_time
+0.0ms    0.0%,0, ,     ImageLoader::recursiveGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
+0.0ms    0.0%,0, ,      ImageLoader::recursiveGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
+0.0ms    0.0%,0, ,       ImageLoader::recursiveGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
+0.0ms    0.0%,0, ,        ImageLoader::recursiveGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
+0.0ms    0.0%,0, ,         ImageLoader::recursiveGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
+0.0ms    0.0%,0, ,          ImageLoader::recursiveGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
+0.0ms    0.0%,0, ,           ImageLoader::recursiveGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
+0.0ms    0.0%,0, ,            ImageLoader::recursiveGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
+0.0ms    0.0%,0, ,             ImageLoader::recursiveGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
+0.0ms    0.0%,0, ,              ImageLoader::recursiveGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
+0.0ms    0.0%,0, ,               ImageLoaderMachO::doGetDOFSections(ImageLoader::LinkContext const&, std::__1::vector<ImageLoader::DOFInfo, std::__1::allocator<ImageLoader::DOFInfo> >&)
+0.0ms    0.0%,0, ,                ImageLoader::getShortName() const
+0.0ms    0.0%,0.04, ,                 strrchr
+0.0ms    0.0%,0, ,     ImageLoader::recursiveBind(ImageLoader::LinkContext const&, bool, bool)
+0.0ms    0.0%,0, ,      ImageLoader::recursiveBind(ImageLoader::LinkContext const&, bool, bool)
+0.0ms    0.0%,0, ,       ImageLoader::recursiveBind(ImageLoader::LinkContext const&, bool, bool)
+0.0ms    0.0%,0, ,        ImageLoader::recursiveBind(ImageLoader::LinkContext const&, bool, bool)
+0.0ms    0.0%,0, ,         ImageLoader::recursiveBind(ImageLoader::LinkContext const&, bool, bool)
+0.0ms    0.0%,0, ,          ImageLoader::recursiveBind(ImageLoader::LinkContext const&, bool, bool)
+0.0ms    0.0%,0, ,           ImageLoaderMachOCompressed::doBind(ImageLoader::LinkContext const&, bool)
+0.0ms    0.0%,0.04, ,            ImageLoaderMachO::setupLazyPointerHandler(ImageLoader::LinkContext const&)
+0.5ms    0.0%,0, ,   dyld::initializeMainExecutable()
+0.5ms    0.0%,0, ,    ImageLoader::runInitializers(ImageLoader::LinkContext const&, ImageLoader::InitializerTimingList&)
+0.5ms    0.0%,0, ,     ImageLoader::processInitializers(ImageLoader::LinkContext const&, unsigned int, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
+0.4ms    0.0%,0, ,      ImageLoader::recursiveInitialization(ImageLoader::LinkContext const&, unsigned int, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
+0.4ms    0.0%,0, ,       ImageLoader::recursiveInitialization(ImageLoader::LinkContext const&, unsigned int, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
+0.4ms    0.0%,0, ,        ImageLoaderMachO::doInitialization(ImageLoader::LinkContext const&)
+0.4ms    0.0%,0, ,         ImageLoaderMachO::doModInitFunctions(ImageLoader::LinkContext const&)
+0.4ms    0.0%,0, ,          libSystem_initializer
+0.2ms    0.0%,0, ,           libdispatch_init
+0.2ms    0.0%,0, ,            _os_object_init
+0.2ms    0.0%,0, ,             _objc_init
+0.2ms    0.0%,0, ,              dyld_register_image_state_change_handler
+0.2ms    0.0%,0, ,               dyld::registerImageStateBatchChangeHandler(dyld_image_states, char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*))
+0.2ms    0.0%,0, ,                dyld::notifyBatchPartial(dyld_image_states, bool, char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*))
+0.2ms    0.0%,0, ,                 map_images
+0.2ms    0.0%,0, ,                  map_images_nolock
+0.1ms    0.0%,0, ,                   _read_images
+0.0ms    0.0%,0.04, ,                    realizeClass(objc_class*)
+0.0ms    0.0%,0, ,                    readClass(objc_class*, bool, bool)
+0.0ms    0.0%,0, ,                     remapClass(objc_class*)
+0.0ms    0.0%,0, ,                      remappedClasses(signed char)
+0.0ms    0.0%,0, ,                       NXCreateMapTableFromZone
+0.0ms    0.0%,0, ,                        NXHashGet
+0.0ms    0.0%,0.04, ,                         NXPtrHash
+0.0ms    0.0%,0, ,                    NXMapKeyCopyingInsert
+0.0ms    0.0%,0, ,                     _strdup_internal
+0.0ms    0.0%,0.04, ,                      _platform_memmove$VARIANT$Unknown
+0.0ms    0.0%,0, ,                   dlopen
+0.0ms    0.0%,0.04, ,                    dlopen
+0.0ms    0.0%,0, ,              environ_init
+0.0ms    0.0%,0.04, ,               issetugid
+0.0ms    0.0%,0.04, ,            _Block_use_RR2
+0.1ms    0.0%,0, ,           _dyld_initializer
+0.0ms    0.0%,0, ,            dyld_register_image_state_change_handler
+0.0ms    0.0%,0, ,             dyld::registerImageStateBatchChangeHandler(dyld_image_states, char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*))
+0.0ms    0.0%,0, ,              std::__1::vector<char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*), std::__1::allocator<char const* (*)(dyld_image_states, unsigned int, dyld_image_info const*)> >::insert(std::__1::__wrap_iter<char const* (* const*)(dyld_image_states, unsigned int, dyld_image_info const*)>, char const* (* const&)(dyld_image_states, unsigned int, dyld_image_info const*))
+0.0ms    0.0%,0, ,               operator new(unsigned long)
+0.0ms    0.0%,0, ,                malloc
+0.0ms    0.0%,0, ,                 malloc
+0.0ms    0.0%,0, ,                  _malloc_initialize
+0.0ms    0.0%,0, ,                   malloc_zone_register_while_locked
+0.0ms    0.0%,0, ,                    mach_vm_allocate
+0.0ms    0.0%,0.04, ,                     _kernelrpc_mach_vm_allocate_trap
+0.0ms    0.0%,0.04, ,            registerThreadHelpers(dyld::LibSystemHelpers const*)
+0.0ms    0.0%,0, ,           mach_init
+0.0ms    0.0%,0, ,            mach_init_doit
+0.0ms    0.0%,0.04, ,             mach_reply_port
+0.0ms    0.0%,0, ,           _libc_initializer
+0.0ms    0.0%,0, ,            __atexit_init
+0.0ms    0.0%,0, ,             _os_alloc_once
+0.0ms    0.0%,0, ,              _os_once
+0.0ms    0.0%,0, ,               _os_alloc
+0.0ms    0.0%,0, ,                _os_alloc_slow
+0.0ms    0.0%,0, ,                 mach_vm_map
+0.0ms    0.0%,0.04, ,                  _kernelrpc_mach_vm_map_trap
+0.0ms    0.0%,0, ,           _libxpc_initializer
+0.0ms    0.0%,0, ,            _should_do_early_init
+0.0ms    0.0%,0, ,             xpc_copy_entitlement_for_token
+0.0ms    0.0%,0, ,              _xpc_copy_entitlements
+0.0ms    0.0%,0, ,               _xpc_copy_entitlements_data
+0.0ms    0.0%,0.04, ,                csops
+0.1ms    0.0%,0, ,      ImageLoader::processInitializers(ImageLoader::LinkContext const&, unsigned int, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
+0.1ms    0.0%,0, ,       ImageLoader::recursiveInitialization(ImageLoader::LinkContext const&, unsigned int, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
+0.0ms    0.0%,0, ,        dyld::notifySingle(dyld_image_states, ImageLoader const*)
+0.0ms    0.0%,0, ,         load_images
+0.0ms    0.0%,0, ,          call_load_methods
+0.0ms    0.0%,0, ,           objc_autoreleasePoolPush
+0.0ms    0.0%,0, ,            (anonymous namespace)::AutoreleasePoolPage::autoreleaseNoPage(objc_object*)
+0.0ms    0.0%,0, ,             malloc_zone_memalign
+0.0ms    0.0%,0, ,              szone_memalign
+0.0ms    0.0%,0.04, ,               szone_malloc_should_clear
+0.0ms    0.0%,0, ,        ImageLoader::recursiveInitialization(ImageLoader::LinkContext const&, unsigned int, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
+0.0ms    0.0%,0, ,         ImageLoader::recursiveInitialization(ImageLoader::LinkContext const&, unsigned int, ImageLoader::InitializerTimingList&, ImageLoader::UninitedUpwards&)
+0.0ms    0.0%,0, ,          ImageLoaderMachO::doInitialization(ImageLoader::LinkContext const&)
+0.0ms    0.0%,0, ,           ImageLoaderMachO::doModInitFunctions(ImageLoader::LinkContext const&)
+0.0ms    0.0%,0, ,            _GLOBAL__I_a
+0.0ms    0.0%,0, ,             std::__1::ios_base::Init::Init()
+0.0ms    0.0%,0, ,              std::__1::__stdinbuf<char>::__stdinbuf(__sFILE*, __mbstate_t*)
+0.0ms    0.0%,0, ,               std::__1::basic_streambuf<char, std::__1::char_traits<char> >::basic_streambuf()
+0.0ms    0.0%,0, ,                std::__1::locale::locale()
+0.0ms    0.0%,0, ,                 std::__1::locale::__global()
+0.0ms    0.0%,0, ,                  std::__1::locale::classic()
+0.0ms    0.0%,0, ,                   std::__1::locale::__imp::__imp(unsigned long)
+0.0ms    0.0%,0, ,                    std::__1::locale::id::__get()
+0.0ms    0.0%,0, ,                     std::__1::__call_once(unsigned long volatile&, void*, void (*)(void*))
+0.0ms    0.0%,0.04, ,                      std::__1::locale::id::__init()
+0.0ms    0.0%,0.04, ,   strcmp
+0.0ms    0.0%,0, ,   ImageLoaderMachO::instantiateMainExecutable(macho_header const*, unsigned long, char const*, ImageLoader::LinkContext const&)
+0.0ms    0.0%,0, ,    ImageLoaderMachOCompressed::instantiateMainExecutable(macho_header const*, unsigned long, char const*, unsigned int, unsigned int, ImageLoader::LinkContext const&)
+0.0ms    0.0%,0.04, ,     ImageLoaderMachO::setSlide(long)
+0.0ms    0.0%,0.04, ,  mach_init
